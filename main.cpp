@@ -6,6 +6,7 @@ int main() {
     int n;
     cin >> n;
     int i=3;
+     cout << 1 << endl;
     if (n>= 2){
         while (i++ <= n){
             cout << primo_numero + secondo_numero << endl;
