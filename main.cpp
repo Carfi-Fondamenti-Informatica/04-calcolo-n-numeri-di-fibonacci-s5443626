@@ -5,7 +5,7 @@ int main() {
     int secondo_numero=1;
     int n;
     cin >> n;
-    int i=3;
+    int i=2;
     if (n>= 2){
            cout << 1 << endl;
         while (i++ <= n){
