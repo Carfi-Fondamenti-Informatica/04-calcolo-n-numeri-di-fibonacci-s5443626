@@ -7,12 +7,14 @@ int main() {
     cin >> n;
     int i=3;
     if (n>= 2){
-       int risultato;
-   while (i++  <= numero){
-       risultato = primo_numero + secondo_numero;
-       cout << risultato <<endl;
-       primo_numero = secondo_numero;
-       secondo_numero = risultato;
-   }else {cout << "errore" << endl};
-   return 0;
-}
+        while (i++ <= n){
+            cout << primo_numero + secondo_numero << endl;
+            if (primo_numero < secondo_numero)
+                primo_numero += secondo_numero;
+            else secondo_numero += primo_numero;
+        }
+        }else {
+        cout << "errore" << endl;
+        }
+        return 0;
+    }
