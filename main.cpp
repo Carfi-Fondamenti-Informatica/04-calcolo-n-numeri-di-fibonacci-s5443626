@@ -10,9 +10,9 @@ int main() {
        int risultato;
    while (i++  <= numero){
        risultato = primo_numero + secondo_numero;
-       cout << risultato << " ";
+       cout << risultato <<endl;
        primo_numero = secondo_numero;
        secondo_numero = risultato;
-   }else {cout << "errore};
+   }else {cout << "errore" << endl};
    return 0;
 }
